@@ -14,19 +14,29 @@ Present a clean, modern Graphical User Interface (GUI).
 
 Save and display full chat history visually.
 
-✨ Main Features
-Feature	Description
-🎙️ Voice Interaction	Uses microphone input to capture commands via SpeechRecognition.
-🧠 Decision-Making Model (DMM)	Classifies queries into: general, real-time search, or system task.
-🌐 Real-Time Info Retrieval	Uses googlesearch + Groq LLM to generate updated and human-like answers.
-⚙️ System Automation	Can open/close apps, run system commands (e.g., browser, notepad, YouTube).
-💬 Chat History Memory	Stores the conversation in a JSON file and renders it inside the GUI.
-🖼️ PyQt5 GUI	Features dynamic screens, animated buttons (GIF), light/dark modes.
-🧭 Multi-page Navigation	Toggle between voice mode and chat history with navigation buttons.
-🔁 Smart Context Handling	Understands vague commands (e.g., “continue”) by using past queries.
-🇲🇦 Darija support (coming soon)	Can be extended to understand Moroccan dialect with NLP fine-tuning.
+##✨ Main Features
 
-🧑‍💻 Technical Stack
+
+🎙️ Voice Interaction	: Uses microphone input to capture commands via SpeechRecognition.
+
+🧠 Decision-Making Model (DMM)	: Classifies queries into: general, real-time search, or system task.
+
+🌐 Real-Time Info Retrieval	: Uses googlesearch + Groq LLM to generate updated and human-like answers.
+
+⚙️ System Automation :	Can open/close apps, run system commands (e.g., browser, notepad, YouTube).
+
+💬 Chat History Memory :	Stores the conversation in a JSON file and renders it inside the GUI.
+
+🖼️ PyQt5 GUI	: Features dynamic screens, animated buttons (GIF), light/dark modes.
+
+🧭 Multi-page Navigation	: Toggle between voice mode and chat history with navigation buttons.
+
+🔁 Smart Context Handling :	Understands vague commands (e.g., “continue”) by using past queries.
+
+
+
+## Technical Stack
+
 Module	Technology Used
 GUI	PyQt5 with custom QWidgets, stacked pages
 Voice Input	SpeechRecognition + PyAudio

@@ -14,7 +14,7 @@ Present a clean, modern Graphical User Interface (GUI).
 
 Save and display full chat history visually.
 
-##✨ Main Features
+##Main Features
 
 
 🎙️ Voice Interaction	: Uses microphone input to capture commands via SpeechRecognition.
@@ -37,17 +37,23 @@ Save and display full chat history visually.
 
 ## Technical Stack
 
-Module	Technology Used
-GUI	PyQt5 with custom QWidgets, stacked pages
-Voice Input	SpeechRecognition + PyAudio
-Text-To-Speech	Edge-TTS (offline), or custom engine
-LLM Response	Groq’s LLaMA 3 API
-Web Search	googlesearch (top 5 search result summaries)
-Data Storage	JSON file system for chat logs and assistant states
-Automation Layer	Python subprocess for system-level commands
-State Management	.data files for microphone and assistant statuses
+GUI :	PyQt5 with custom QWidgets, stacked pages
 
-👥 Target Users
+Voice Input :	SpeechRecognition + PyAudio
+
+Text-To-Speech	: Edge-TTS (offline), or custom engine
+
+LLM Response :	Groq’s LLaMA 3 API
+
+Web Search : googlesearch (top 5 search result summaries)
+
+Data Storage :	JSON file system for chat logs and assistant states
+
+Automation Layer :	Python subprocess for system-level commands
+
+State Management	: .data files for microphone and assistant statuses
+
+##Target Users
 NovaIA is built for:
 
 Tech-savvy users who want a voice-controlled desktop assistant.
@@ -60,5 +66,4 @@ Busy professionals looking for hands-free control over routine tasks.
 
 Accessibility users who benefit from voice interfaces over keyboard use.
 
-🔧 NovaIA can be extended with your own commands, APIs, and languages.
 

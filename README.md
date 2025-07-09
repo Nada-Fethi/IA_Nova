@@ -14,7 +14,7 @@ Present a clean, modern Graphical User Interface (GUI).
 
 Save and display full chat history visually.
 
-##Main Features
+## Main Features
 
 
 🎙️ Voice Interaction	: Uses microphone input to capture commands via SpeechRecognition.
@@ -53,7 +53,7 @@ Automation Layer :	Python subprocess for system-level commands
 
 State Management	: .data files for microphone and assistant statuses
 
-##Target Users
+## Target Users
 NovaIA is built for:
 
 Tech-savvy users who want a voice-controlled desktop assistant.

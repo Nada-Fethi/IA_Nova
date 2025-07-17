@@ -2,6 +2,8 @@
 NovaIA is a smart voice assistant application built with Python and a modern GUI using PyQt5.
 It is designed to interact with users through voice or text, interpret their queries using a Decision-Making Model (DMM), and respond using real-time search or AI-generated answers, while also allowing system automation tasks like opening apps.
 
+<img width="620" height="516" alt="Capture d’écran 2025-07-10 002945" src="https://github.com/user-attachments/assets/72bd3c26-7741-4730-9f00-fbbee481e239" />
+
  ## Purpose of the Application
 
 Enable voice interaction with the computer.
